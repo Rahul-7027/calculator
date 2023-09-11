@@ -32,7 +32,41 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.result {
+  height: 60px;
+  background-color: white;
+  width: 94%;
+  color: black;
+  border: 12px solid black
+}
+
+.result p {
+  font-size: 40px;
+  margin: 5px;
+  text-align: center;
+
+}
+
+.calculator-body {
+  max-width: 400px;
+  margin: auto;
+}
+
+.button {
+  display: block;
+  background-color: #f08787;
+  padding: 32px;
+}
+
+button {
+  width: 25%;
+  height: 60px;
+  font-size: 30px;
 }
